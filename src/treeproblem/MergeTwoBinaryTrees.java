@@ -5,7 +5,7 @@ package treeproblem;
  */
 public class MergeTwoBinaryTrees {
 
-    private static TreeNode mergeTree(TreeNode<Integer> t1, TreeNode<Integer> t2) {
+    private static TreeNode mergeTree(TreeNode t1, TreeNode t2) {
         if (t1 == null && t2 == null) {
             return null;
         }
@@ -22,9 +22,9 @@ public class MergeTwoBinaryTrees {
     }
 
     public static void main(String[] args) {
-        TreeNode<Integer> treeNode1 = TreeNode.takeInputLevelWise();
+        TreeNode treeNode1 = TreeNode.createBinaryTree();
         TreeNode.print(treeNode1);
-        TreeNode<Integer> treeNode2 = TreeNode.takeInputLevelWise();
+        TreeNode treeNode2 = TreeNode.createBinaryTree();
         TreeNode.print(treeNode2);
         System.out.println(1);
         TreeNode.print(mergeTree(treeNode1, treeNode2));

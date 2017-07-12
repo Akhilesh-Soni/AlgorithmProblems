@@ -58,18 +58,26 @@ public class LinkedList {
     public boolean insertAtPosition(int position, int data) {
         Node node = new Node(data);
         Node temp = head.getNext();
-        int count = 1;
-        while (temp.getNext() != null && count != position) {
+
+        if (head == null) {
+            Node head = new Node(data);
+            head.setNext(head);
+            return true;
+        }
+        if (position == 0) {
+            node.setNext(temp);
+            head.setNext(node);
+            return true;
+        }
+        int count = 0;
+        while (temp.getNext() != null && count != position - 1) {
             temp = temp.getNext();
             count++;
         }
-        if (count == position) {
-            Node next = temp.getNext();
-            temp.setNext(node);
-            node.setNext(next);
-            return true;
-        }
-        return false;
+        Node next = temp.getNext();
+        temp.setNext(node);
+        node.setNext(next);
+        return true;
     }
 
     public boolean deleteNode(int data) {

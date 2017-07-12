@@ -6,45 +6,33 @@ package arrayproblems;
 public class SpiralArray {
 
     private static void printMatrixInSpiralManner(int[][] matrix) {
-        printMatrixInSpiralMannerUtil(matrix, 0, 0, matrix.length - 1, matrix[0].length - 1, 0);
+        printMatrixInSpiralMannerUtil(matrix, 0, 0, matrix.length - 1, matrix[0].length - 1);
     }
 
-    private static void printMatrixInSpiralMannerUtil(int[][] matrix, int row,
-                                                      int col, int m, int n, int count) {
+    private static void printMatrixInSpiralMannerUtil(int[][] matrix, int rowIterator,
+                                                      int colIterator, int rowLength, int colLength) {
         int i, j, k, l;
-        checkIfAllNumberPrinted(count, m, n);
-        for (i = row; i <= n - row; i++) {
-            count++;
-            System.out.print(matrix[row][i] + " ");
-        }
-        i--;
-        for (j = col + 1; j <= m - col; j++) {
-            count++;
-            System.out.print(matrix[j][i] + " ");
-        }
-        j--;
-        for (k = i - 1; k >= col; k--) {
-            count++;
-            System.out.print(matrix[j][k] + " ");
-        }
-        k++;
-        for (l = j - 1; l >= row + 1; l--) {
-            count++;
-            System.out.print(matrix[l][k] + " ");
-        }
-        printMatrixInSpiralMannerUtil(matrix, ++row, ++col, m, n, count);
-    }
-
-    private static void checkIfAllNumberPrinted(int count, int m, int n) {
-        if (count == (m + 1) * (n + 1)) {
-            System.exit(0);
+        if (rowIterator < rowLength && colIterator < colLength) {
+            for (i = colIterator; i < colLength - colIterator; i++) {
+                System.out.print(matrix[colIterator][i] + " ");
+            }
+            for (j = rowIterator; j < rowLength - rowIterator; j++) {
+                System.out.print(matrix[j][i] + " ");
+            }
+            for (k = colLength - colIterator - 1; k >= colIterator; k--) {
+                System.out.print(matrix[rowIterator + 1][k] + " ");
+            }
+            for (l = rowLength - rowIterator - 1; l >= rowIterator + 1; l--) {
+                System.out.print(matrix[l][rowIterator] + " ");
+            }
+            printMatrixInSpiralMannerUtil(matrix, ++rowIterator, ++colIterator, rowLength, colLength);
         }
     }
 
     public static void main(String[] args) {
-        int matrix[][] = {{1, 2, 3, 4, 5},
-                {6, 7, 8, 9, 10},
-                {11, 12, 13, 14, 15}};
+        int matrix[][] = {{1, 2, 3},
+                {6, 7, 8},
+                {9, 10, 11}};
         printMatrixInSpiralManner(matrix);
     }
 }

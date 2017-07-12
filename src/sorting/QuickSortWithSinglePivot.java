@@ -1,6 +1,5 @@
 package sorting;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class QuickSortWithSinglePivot {
@@ -47,9 +46,9 @@ public class QuickSortWithSinglePivot {
         quickSortWithSinglePivot(arr);
 
         for (int i : arr) {
-            System.out.println(i + " ");
+            System.out.print(i + " ");
         }
-        System.out.println("end " + System.currentTimeMillis());
+        System.out.println("\nend " + System.currentTimeMillis());
 
     }
 }
