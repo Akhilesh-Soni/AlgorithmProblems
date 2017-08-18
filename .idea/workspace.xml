@@ -2,64 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95edeaf1-021d-468a-bc0b-65497a71130f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BitManipulation/CheckIfNumberIsPowerOfTwo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BitManipulation/CountNumberOfOnes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BitManipulation/MonkAndTheBoxOfCookies.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BitManipulation/SubSets.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HeapProblems/EmptyHeapException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HeapProblems/Heap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HeapProblems/MaxHeap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HeapProblems/MergeKSortedArrays.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HeapProblems/MinHeap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HeapProblems/SortAlmostSortedArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrayproblems/NumbersOfSetBitsOfANumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrayproblems/RotateArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dynamicprogramming/Factorial.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dynamicprogramming/PartitioningProblem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerearth/AlexAndPriorityRequests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerearth/AlexAndRequests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerearth/CircularJump.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerearth/DestroyingBalls.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerearth/DivisibilityOfNumbers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerearth/FlippingBit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerearth/KillJeeAndSubSetProblem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerearth/SuperdromeNumbers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerearth/XORTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linkedlistproblems/MergeTwoSortedLinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linkedlistproblems/MidPoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linkedlistproblems/RemoveDuplicateFromSortedLinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linkedlistproblems/SelectionSortOnLinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/linkedlistproblems/SumOfLinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/recursion/Factorial.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/recursion/PrintAllCombinationOfBalancedParentheses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sorting/InsertionSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sorting/SelectionSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/stackproblem/BalancedBrackets.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/stackproblem/MaximumElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/treeproblem/CreateBSTFromInOrderAndPostOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/treeproblem/CreateBSTFromInOrderAndPreOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/treeproblem/RootToLeafPathSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/treeproblem/TopViewOfTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/treeproblem/VerticalTraversingOfTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/treeproblem/WaysOfBSTByCreatingBST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/treeproblem/WaysOfBSTWithoutCreatingBST.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algorithms/dynamicprogramming/Knapsack01$Index.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algorithms/dynamicprogramming/Knapsack01.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algorithms/hackerrank/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/hackerrank/Test.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/linkedlistproblems/BubbleSortOnLinkedList.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/linkedlistproblems/BubbleSortOnLinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/linkedlistproblems/LinkedList.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/linkedlistproblems/LinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/linkedlistproblems/ReverseLinkedList.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/linkedlistproblems/ReverseLinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/treeproblem/CreateASeparateLinkedListForEachLevel.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/treeproblem/CreateASeparateLinkedListForEachLevel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/treeproblem/PostOrderTraversalIterativeAndRecursive.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/treeproblem/PostOrderTraversalIterativeAndRecursive.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/treeproblem/TreeNode.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/treeproblem/TreeNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linkedlistproblems/BubbleSortOnLinkedList.java" afterPath="$PROJECT_DIR$/src/linkedlistproblems/BubbleSortOnLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linkedlistproblems/LinkedList.java" afterPath="$PROJECT_DIR$/src/linkedlistproblems/LinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linkedlistproblems/ReverseLinkedList.java" afterPath="$PROJECT_DIR$/src/linkedlistproblems/ReverseLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/treeproblem/CreateASeparateLinkedListForEachLevel.java" afterPath="$PROJECT_DIR$/src/treeproblem/CreateASeparateLinkedListForEachLevel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/treeproblem/TreeNode.java" afterPath="$PROJECT_DIR$/src/treeproblem/TreeNode.java" />
     </list>
     <ignored path="Algorithms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -162,7 +105,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
-    <option name="width" value="1934" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -190,8 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -204,25 +146,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dynamicprogramming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane">
         <subPane />
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -647,7 +577,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="0" width="1934" height="1056" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1056" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -661,7 +591,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.76608187" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17263843" sideWeight="0.49320388" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1718919" sideWeight="0.49320388" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1111,28 +1041,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/hackerrank/MinMaxSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-422">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrayproblems/NumbersOfSetBitsOfANumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/EmptyStackException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
@@ -1461,7 +1369,7 @@
         <state relative-caret-position="30">
           <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1471,7 +1379,7 @@
         <state relative-caret-position="-570">
           <caret line="16" column="59" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1481,7 +1389,7 @@
         <state relative-caret-position="117">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1490,6 +1398,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlgorithmTraining/src/assignments/Assignment1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5340">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlgorithmTraining/src/spoj/StopAt42.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlgorithmTraining/src/l9/EditDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlgorithmTraining/src/l9/PatternMatchingBrute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
