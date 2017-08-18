@@ -12,7 +12,6 @@ public class CreateASeparateLinkedListForEachLevel {
 
     private static ArrayList<LinkedList<TreeNode>> createLinkedListForEachLevel(TreeNode treeNode) {
         ArrayList<LinkedList<TreeNode>> arrayList = new ArrayList<>();
-        LinkedList<TreeNode> e = new LinkedList<>();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(treeNode);
         while (!queue.isEmpty()) {

@@ -5,7 +5,8 @@ import java.util.Queue;
 import java.util.Scanner;
 
 /**
- * Created by akhileshsoni on 11-06-2017.
+ * This class contains utility function like create BT or BST,
+ * print the tree, heightOfTree, diameterOfTree
  */
 public class TreeNode {
     private int data;
@@ -71,7 +72,7 @@ public class TreeNode {
                 System.out.println("Cant come here");
                 return null;
             }
-            System.out.println("Enter left child for (Enter -1 to exit)" + currentNode.data);
+            System.out.println("Enter left child for (Enter -1 to add null child)" + currentNode.data);
             int leftData = s.nextInt();
             if (leftData != -1) {
                 TreeNode left = new TreeNode(leftData);
@@ -79,7 +80,7 @@ public class TreeNode {
                 currentNode.left = left;
             }
 
-            System.out.println("Enter right child for (Enter -1 to exit)" + currentNode.data);
+            System.out.println("Enter right child for (Enter -1 to add null child)" + currentNode.data);
             int rightData = s.nextInt();
             if (rightData != -1) {
                 TreeNode right = new TreeNode(rightData);
@@ -166,5 +167,14 @@ public class TreeNode {
         int rDiameter = diameter(treeNode.getRight());
 
         return Math.max(lHeight + rHeight + 1, Math.max(lDiameter, rDiameter));
+    }
+
+    public static TreeNode createBinarySearchTreeFromArray(int[] array) {
+        TreeNode treeNode = new TreeNode(array[0]);
+        for (int i = 1; i < array.length; i++) {
+            TreeNode temp = new TreeNode(array[i]);
+            createBinarySearchTreeRecursiveUtil(treeNode, temp);
+        }
+        return treeNode;
     }
 }

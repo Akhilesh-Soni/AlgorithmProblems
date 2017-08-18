@@ -5,41 +5,57 @@ package linkedlistproblems;
  */
 public class BubbleSortOnLinkedList {
 
-    private static void bubbleSort(LinkedList linkedList) {
-        int length = 1;
-        Node counter = linkedList.getHead().getNext();
-        while (counter.getNext() != null) {
-            counter = counter.getNext();
-            length++;
+    private static void bubbleSortRecursive(LinkedList linkedList) {
+        bubbleSortRecursiveUtil(linkedList.getHead().getNext(), null);
+    }
+
+    private static void bubbleSortRecursiveUtil(Node curr, Node last) {
+        if (curr == last) {
+            return;
         }
-        Node k = null;
-        for (int i = 0; i < length; i++) {
-            Node j = linkedList.getHead().getNext();
-            while (j.getNext() != k) {
-                Node jNext = j.getNext();
-                if (j.getData() > jNext.getData()) {
-                    int temp = j.getData();
-                    j.setData(jNext.getData());
-                    jNext.setData(temp);
-                }
-                j = jNext;
+        Node temp = curr;
+        while (temp.getNext() != last) {
+            if (temp.getData() > temp.getNext().getData()) {
+                int data = temp.getData();
+                temp.setData(temp.getNext().getData());
+                temp.getNext().setData(data);
             }
-            k = j;
+            temp = temp.getNext();
         }
+        last = temp;
+        bubbleSortRecursiveUtil(curr, last);
+    }
+
+    private static void bubbleSortIterative(LinkedList linkedList) {
+        boolean swap;
+        Node last = null;
+        Node curr = linkedList.getHead().getNext();
+        do {
+            swap = false;
+            while (curr.getNext() != last) {
+                if (curr.getData() > curr.getNext().getData()) {
+                    swap = true;
+                    int data = curr.getData();
+                    curr.setData(curr.getNext().getData());
+                    curr.getNext().setData(data);
+                }
+                curr = curr.getNext();
+            }
+            last = curr;
+            curr = linkedList.getHead().getNext();
+        } while (swap);
     }
 
 
     public static void main(String[] args) {
         LinkedList linkedList = new LinkedList();
-        linkedList.add(50);
-        linkedList.add(30);
+        linkedList.add(15);
         linkedList.add(10);
-        linkedList.add(20);
-        linkedList.add(60);
-        linkedList.add(40);
-        linkedList.add(70);
+        linkedList.add(5);
+        linkedList.add(35);
+        linkedList.add(25);
         linkedList.printAllNodes();
-        bubbleSort(linkedList);
+        bubbleSortRecursive(linkedList);
         System.out.println();
         linkedList.printAllNodes();
     }

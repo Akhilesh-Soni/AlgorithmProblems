@@ -34,7 +34,7 @@ public class LinkedList {
             System.out.print("->");
             temp = temp.getNext();
         } while (temp != null);
-        System.out.print("null");
+        System.out.print("null"+"\n");
     }
 
     public boolean insertAtFirst(int data) {
@@ -94,6 +94,16 @@ public class LinkedList {
         return true;
     }
 
+    public int size() {
+        Node temp = this.head.getNext();
+        int count = 0;
+        while (temp != null) {
+            count++;
+            temp = temp.getNext();
+        }
+        return count;
+    }
+
     public boolean findNode(int data) {
         Node temp = head.getNext();
         while (temp != null && temp.getData() != data) {
@@ -110,6 +120,7 @@ public class LinkedList {
         linkedList.add(40);
         linkedList.add(50);
         linkedList.printAllNodes();
+        System.out.println("\nSize " + linkedList.size());
         linkedList.insertAtFirst(5);
         System.out.println();
         linkedList.printAllNodes();
